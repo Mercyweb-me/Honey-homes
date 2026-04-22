@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-white antialiased font-sans;
+  min-height: 100%;
+}
+
+::selection {
+  background: rgba(217, 181, 111, 0.3);
+}
+
+button,
+input,
+textarea {
+  @apply font-sans;
+}
+
+@layer utilities {
+  .text-gold {
+    color: #d9b56f;
+  }
+  .bg-gold-soft {
+    background-color: rgba(217, 181, 111, 0.14);
+  }
+}
