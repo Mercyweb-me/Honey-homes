@@ -1,3 +1,4 @@
+import {link} from "react-router-dom";
 import { motion } from "framer-motion";
 import homeBg from "../assets/home.jpeg";
 import room1 from "../assets/room 1.jpeg";
@@ -31,18 +32,18 @@ function Home() {
               Luxury short-let apartments in Ibadan with premium amenities, beautiful interiors, and 24/7 support.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a
-                href="/contact"
+              <link
+                 to="/contact"
                 className="bg-gold text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition"
               >
                 Book a Stay
-              </a>
-              <a
-                href="/about"
-                className="border border-gold text-gold px-8 py-4 rounded-full font-semibold hover:bg-gold/10 transition"
+              </link>
+              <link
+                 to="/about"
+                 className="border border-gold text-gold px-8 py-4 rounded-full font-semibold hover:bg-gold/10 transition"
               >
                 Learn More
-              </a>
+              </link>
             </div>
           </motion.div>
         </div>
