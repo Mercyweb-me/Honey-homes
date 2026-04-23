@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import passage from "../assets/passage.jpeg";
 
 function About() {
@@ -236,20 +237,15 @@ function About() {
           Experience comfort and privacy at Honey Homes & Apartment.
         </p>
 
-        <link to="/contact" target="_blank" rel="noopener noreferrer">
-        <motion.button
-          className="bg-gold text-black px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          
-          
-          
-
-          Contact Us
-          
-        </motion.button>
-        </link>
+        <Link to="/contact">
+          <motion.button
+            className="bg-gold text-black px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Contact Us
+          </motion.button>
+        </Link>
       </motion.div>
 
     </div>
