@@ -23,7 +23,7 @@ function Footer() {
             target="_blank"
             className="inline-block bg-green-500 text-white px-5 py-2 rounded-lg mt-3 hover:bg-green-600"
           >
-            Chat on WhatsApp
+            Chat on Business WhatsApp
           </a>
 
         </div>

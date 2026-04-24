@@ -9,7 +9,7 @@ function Contact() {
     message: "",
   });
 
-  const whatsappNumber = "2348117085186";
+  const whatsappNumber = "2348117085186"; // Business WhatsApp
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -149,7 +149,7 @@ Message: ${formData.message || ""}`;
             </p>
           </motion.div>
 
-          {/* WhatsApp Button */}
+          {/* Business WhatsApp Button */}
           <motion.a
             href="https://wa.me/2349018705128"
             target="_blank"
@@ -161,7 +161,7 @@ Message: ${formData.message || ""}`;
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Chat on WhatsApp
+            Chat on Business WhatsApp
           </motion.a>
 
           {/* Map Placeholder */}
