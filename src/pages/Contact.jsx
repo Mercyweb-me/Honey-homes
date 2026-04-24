@@ -9,7 +9,7 @@ function Contact() {
     message: "",
   });
 
-  const whatsappNumber = "2348117085186"; // Business WhatsApp
+  const whatsappNumber = "2349018705128"; // Business WhatsApp
 
   const handleChange = (event) => {
     const { name, value } = event.target;

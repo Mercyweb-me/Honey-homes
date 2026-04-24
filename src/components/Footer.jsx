@@ -19,7 +19,7 @@ function Footer() {
           </p>
 
           <a
-            href="https://wa.me/2348117085186"
+            href="https://wa.me/2349018705128"
             target="_blank"
             className="inline-block bg-green-500 text-white px-5 py-2 rounded-lg mt-3 hover:bg-green-600"
           >
