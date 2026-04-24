@@ -9,7 +9,7 @@ function Contact() {
     message: "",
   });
 
-  const whatsappNumber = "2349018705128";
+  const whatsappNumber = "2348117085186";
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -137,7 +137,7 @@ Message: ${formData.message || ""}`;
             </h2>
 
             <p className="mb-2 text-gray-200">
-              📞 Phone: 09018705128
+              📞 Phone: 09018705128| 08117085186
             </p>
 
             <p className="mb-2 text-gray-200">
