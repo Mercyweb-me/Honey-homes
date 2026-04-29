@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo apart.jpeg";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -10,9 +10,9 @@ function Navbar() {
       <div className="flex justify-between items-center px-6 py-4">
         
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="HONEY HOMES AND APARTMENTS logo" className="h-12 w-auto object-contain" />
-          <span className="font-bold text-lg text-gold">HONEY HOMES AND APARTMENTS</span>
+        <Link to="/" className="flex items-center gap-4">
+          <img src={logo} alt="HONEY HOMES&APARTMENT logo" className="h-16 w-auto object-contain drop-shadow-lg glow-gold" />
+          <span className="font-bold text-xl text-gold-shine">HONEY HOMES&APARTMENT</span>
         </Link>
 
         {/* Hamburger */}

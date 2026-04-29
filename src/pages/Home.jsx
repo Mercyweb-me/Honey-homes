@@ -26,7 +26,7 @@ function Home() {
             transition={{ duration: 1, delay: 0.4 }}
           >
             <h1 className="text-white text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Welcome to HONEY HOMES&APARTMENT
+              Welcome to <span className="text-gold-shine">HONEY HOMES&APARTMENT</span>
             </h1>
             <p className="text-gray-200 text-base md:text-lg max-w-2xl mx-auto mb-8">
               Luxury short-let apartments in Ibadan with premium amenities, beautiful interiors, and 24/7 support.
@@ -105,8 +105,8 @@ function Home() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-semibold mb-8 text-center text-gold">
-            Why Choose HONEY HOMES AND APARTMENTS?
+          <h2 className="text-2xl font-semibold mb-8 text-center text-gold-shine">
+            Why Choose HONEY HOMES&APARTMENT?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -155,7 +155,7 @@ function Home() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-semibold mb-8 text-center text-gold">
+          <h2 className="text-2xl font-semibold mb-8 text-center text-gold-shine">
             What Our Guests Say
           </h2>
 
