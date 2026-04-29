@@ -14,7 +14,7 @@ function About() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        About Honey Homes & Apartment
+        About HONEY HOMES&APARTMENT
       </motion.h1>
 
       {/* About Section */}
@@ -56,7 +56,7 @@ function About() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            Honey Homes & Apartment provides premium short-let apartments
+            HONEY HOMES AND APARTMENTS provides premium short-let apartments
             designed for privacy, comfort, and convenience. Our apartments
             are fully furnished with modern amenities suitable for business
             travelers, families, and vacation stays.
@@ -234,7 +234,7 @@ function About() {
           Book Your Stay Today
         </h2>
         <p className="mb-6 text-gray-300">
-          Experience comfort and privacy at Honey Homes & Apartment.
+          Experience comfort and privacy at HONEY HOMES AND APARTMENTS.
         </p>
 
         <Link to="/contact">

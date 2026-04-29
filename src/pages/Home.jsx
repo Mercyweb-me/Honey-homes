@@ -13,7 +13,7 @@ function Home() {
       <section className="relative h-[80vh] w-full overflow-hidden">
         <img
           src={homeBg}
-          alt="Honey Homes hero"
+          alt="HONEY HOMES AND APARTMENTS hero"
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-black/55" />
@@ -26,7 +26,7 @@ function Home() {
             transition={{ duration: 1, delay: 0.4 }}
           >
             <h1 className="text-white text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Welcome to Honey Homes & Apartment
+              Welcome to HONEY HOMES&APARTMENT
             </h1>
             <p className="text-gray-200 text-base md:text-lg max-w-2xl mx-auto mb-8">
               Luxury short-let apartments in Ibadan with premium amenities, beautiful interiors, and 24/7 support.
@@ -106,7 +106,7 @@ function Home() {
           viewport={{ once: true }}
         >
           <h2 className="text-2xl font-semibold mb-8 text-center text-gold">
-            Why Choose Honey Homes?
+            Why Choose HONEY HOMES AND APARTMENTS?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

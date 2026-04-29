@@ -4,7 +4,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-10">
 
         <h2 className="text-xl font-semibold mb-6 text-gold">
-          HONEY HOMES & APARTMENT
+          HONEY HOMES&APARTMENT
         </h2>
 
         <div className="space-y-3 text-gray-300">
@@ -14,8 +14,7 @@ function Footer() {
           </p>
 
           <p>
-            📍 Address: Are-onibon Street, behind THE BAJ event center,
-            along moniya road. Ibadan, Oyo state. Nigeria
+            📍 Address: estate, Are onibon, behind The Baj Park, akinbgile, Ibadan 200132, Oyo
           </p>
 
           <a
@@ -29,7 +28,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-4 text-sm text-gray-400">
-          © {new Date().getFullYear()} Honey Homes & Apartment. All rights reserved.
+          © {new Date().getFullYear()} HONEY HOMES AND APARTMENTS. All rights reserved.
         </div>
 
       </div>

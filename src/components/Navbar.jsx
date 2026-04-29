@@ -11,8 +11,8 @@ function Navbar() {
         
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Honey Homes logo" className="h-12 w-auto" />
-          <span className="font-bold text-lg text-gold">HONEY HOMES</span>
+          <img src={logo} alt="HONEY HOMES AND APARTMENTS logo" className="h-12 w-auto object-contain" />
+          <span className="font-bold text-lg text-gold">HONEY HOMES AND APARTMENTS</span>
         </Link>
 
         {/* Hamburger */}
