@@ -19,8 +19,7 @@ function Apartments() {
       baths: 1,
       size: "420 sq ft",
       description: "A single room with a private bathroom, designed for a comfortable and affordable stay.",
-      amenities: ["WiFi", "AC", "Kitchenette", "TV", "Private Bath"]
-    },
+ amenities: ["AC", "Kitchen", "TV", "Private Entrance"],    },
     {
       id: 2,
       title: "Studio / Self-Contained",
@@ -31,7 +30,7 @@ function Apartments() {
       baths: 1,
       size: "520 sq ft",
       description: "Contains a bedroom, kitchen and bathroom — perfect for guests who want a self-contained stay.",
-      amenities: ["WiFi", "AC", "Kitchen", "TV", "Private Entrance"],
+      amenities: ["AC", "Kitchen", "TV", "Private Entrance"],
       link: "#studio"
     },
     {
@@ -44,7 +43,7 @@ function Apartments() {
       baths: 2,
       size: "900 sq ft",
       description: "Visitor restroom, waiting room, living room, 2 bedrooms, balcony, kitchen and bathrooms.",
-      amenities: ["WiFi", "AC", "Kitchen", "TV", "Balcony", "Parking"]
+      amenities: ["AC", "Kitchen", "TV", "Balcony", "Parking"]
     },
     {
       id: 4,
@@ -56,7 +55,7 @@ function Apartments() {
       baths: 2,
       size: "980 sq ft",
       description: "Visitor restroom, waiting room, living room, 2 bedrooms, balcony, kitchen and bathrooms.",
-      amenities: ["WiFi", "AC", "Kitchen", "TV", "Balcony", "Parking", "Laundry"]
+      amenities: ["AC", "Kitchen", "TV", "Balcony", "Parking", "Laundry"]
     },
   ];
 
@@ -65,7 +64,7 @@ function Apartments() {
   return (
     <div className="px-6 py-12">
       <motion.h1
-        className="text-3xl font-bold text-center mb-10 text-gold"
+        className="text-2xl md:text-3xl font-bold text-center mb-10 text-gold"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -136,13 +135,13 @@ function Apartments() {
               </div>
 
               <div className="flex flex-wrap gap-1 mb-3">
-                {apt.amenities.slice(0, 3).map((amenity) => (
+                {apt.amenities.slice(1, 4).map((amenity) => (
                   <span key={amenity} className="text-xs bg-gold/20 text-gold px-2 py-1 rounded">
                     {amenity}
                   </span>
                 ))}
-                {apt.amenities.length > 3 && (
-                  <span className="text-xs text-gray-400">+{apt.amenities.length - 3} more</span>
+                {apt.amenities.length > 4 && (
+                  <span className="text-xs text-gray-400">+{apt.amenities.length - 4} more</span>
                 )}
               </div>
 

@@ -7,17 +7,17 @@ export default {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
-        gold: '#FFD700', // Bright honey gold
-        'gold-shine': '#FFE55C', // Shining honey gold
-        'gold-dark': '#D4AF37', // Antique gold
-        'gold-glow': '#FFF8DC', // Light honey glow
-        ink: '#0B0803', // Very dark from logo
-        'ink-light': '#1a1a1a', // Slightly lighter dark
-        smoke: '#c9c6c1',
+        gold: '#E6B800', // Softer honey gold (less bright)
+        'gold-shine': '#F0C674', // Muted shining honey gold (less intense)
+        'gold-dark': '#B8860B', // Antique gold (slightly lighter)
+        'gold-glow': '#F5F5DC', // Light honey glow (warmer)
+        ink: '#1a1a1a', // Lighter dark background (less black)
+        'ink-light': '#2a2a2a', // Even lighter for contrast
+        smoke: '#d4d4d4', // Lighter smoke color
       },
       boxShadow: {
-        gold: '0 30px 80px rgba(255,215,0,0.25)',
-        'gold-glow': '0 0 30px rgba(255,215,0,0.4), 0 0 60px rgba(255,215,0,0.2)',
+        gold: '0 10px 30px rgba(230, 184, 0, 0.15)',
+        'gold-glow': '0 0 15px rgba(230, 184, 0, 0.2), 0 0 30px rgba(230, 184, 0, 0.1)',
       },
       backgroundImage: {
         'hero-glow': 'radial-gradient(circle at top, rgba(255,215,0,0.25), transparent 40%)',

@@ -25,7 +25,7 @@ function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            <h1 className="text-white text-4xl md:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-white text-2xl md:text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Welcome to <span className="text-gold-shine">HONEY HOMES&APARTMENT</span>
             </h1>
             <p className="text-gray-200 text-base md:text-lg max-w-2xl mx-auto mb-8">
@@ -34,13 +34,13 @@ function Home() {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                  to="/contact"
-                className="bg-gold text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition"
+                className="bg-gold text-black px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold text-sm md:text-base hover:opacity-90 transition"
               >
                 Book a Stay
               </Link>
               <Link
                  to="/about"
-                 className="border border-gold text-gold px-8 py-4 rounded-full font-semibold hover:bg-gold/10 transition"
+                 className="border border-gold text-gold px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold text-sm md:text-base hover:bg-gold/10 transition"
               >
                 Learn More
               </Link>

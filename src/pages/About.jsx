@@ -6,9 +6,8 @@ function About() {
   return (
     <div className="px-6 py-12 space-y-10">
 
-      {/* Title */}
       <motion.h1
-        className="text-3xl font-bold text-center mb-10 text-gold"
+        className="text-2xl md:text-3xl font-bold text-center mb-10 text-gold"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -40,7 +39,7 @@ function About() {
         {/* Text */}
         <div>
           <motion.h2
-            className="text-2xl font-semibold mb-4 text-white"
+            className="text-xl md:text-2xl font-semibold mb-4 text-white"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}

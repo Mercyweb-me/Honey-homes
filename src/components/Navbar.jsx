@@ -6,18 +6,16 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gold/20 bg-[#090705]/95 backdrop-blur-md shadow-black/40 shadow-lg">
+    <header className="sticky top-0 z-50 border-b border-gold/20 bg-[#1a1a1a]/95 backdrop-blur-md shadow-black/40 shadow-lg">
       <div className="flex justify-between items-center px-6 py-4">
         
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-4">
-          <img src={logo} alt="HONEY HOMES&APARTMENT logo" className="h-16 w-auto object-contain drop-shadow-lg glow-gold" />
-          <span className="font-bold text-xl text-gold-shine">HONEY HOMES&APARTMENT</span>
+        <Link to="/" className="flex items-center gap-2 md:gap-4">
+          <img src={logo} alt="HONEY HOMES&APARTMENT logo" className="h-12 md:h-16 w-auto object-contain drop-shadow-lg glow-gold" />
+          <span className="font-bold text-lg md:text-xl text-gold-shine">HONEY HOMES&APARTMENT</span>
         </Link>
 
-        {/* Hamburger */}
         <button
-          className="md:hidden text-2xl"
+          className="md:hidden text-xl"
           onClick={() => setOpen(!open)}
         >
           ☰
@@ -35,7 +33,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-black transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-64 bg-ink transform transition-transform duration-300 ${
           open ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >

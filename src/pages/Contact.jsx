@@ -31,7 +31,7 @@ Message: ${formData.message || ""}`;
     <div className="px-6 py-12">
 
       <motion.h1
-        className="text-3xl font-bold text-center mb-10 text-gold"
+        className="text-2xl md:text-3xl font-bold text-center mb-10 text-gold"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
