@@ -9,6 +9,7 @@ import room1 from "../assets/room 1.jpeg";
 import room4 from "../assets/room 4.jpeg";
 import room2 from "../assets/room2.jpeg";
 import room3 from "../assets/room3.jpeg";
+import view1 from "../assets/view1.jpeg";
 
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -23,6 +24,7 @@ function Gallery() {
     room4,
     room2,
     room3,
+    view1,
   ];
 
   return (

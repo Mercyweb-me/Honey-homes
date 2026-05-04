@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import homeBg from "../assets/home.jpeg";
+import homeBg from "../assets/home2.jpeg";
 import room1 from "../assets/room 1.jpeg";
 import room2 from "../assets/room2.jpeg";
 import room4 from "../assets/room 4.jpeg";
