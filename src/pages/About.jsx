@@ -13,7 +13,7 @@ function About() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        About HONEY HOMES&APARTMENT
+        About HONEY HOMES&APARTMENTS
       </motion.h1>
 
       {/* About Section */}

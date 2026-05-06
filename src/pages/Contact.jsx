@@ -37,7 +37,7 @@ Message: ${formData.message || ""}`;
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        Contact HONEY HOMES&APARTMENT
+        Contact HONEY HOMES&APARTMENTS
       </motion.h1>
 
       <div className="grid md:grid-cols-2 gap-10">
@@ -145,7 +145,7 @@ Message: ${formData.message || ""}`;
             </p>
 
             <p className="text-gray-200">
-              🏢 Honey Homes&Apartment
+              🏢 Honey Homes&Apartments
             </p>
           </motion.div>
 
@@ -190,7 +190,7 @@ Message: ${formData.message || ""}`;
           className="rounded-xl"
         ></iframe>
         <p className="text-center text-gray-300 mt-4">
-          📍 <strong>Honey Homes&Apartment</strong> - estate, Are onibon, behind The Baj Park, akinbgile, Ibadan 200132, Oyo
+          📍 <strong>Honey Homes&Apartments</strong> - estate, Are onibon, behind The Baj Park, akinbgile, Ibadan 200132, Oyo
         </p>
       </motion.div>
 

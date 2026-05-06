@@ -4,7 +4,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-10">
 
         <h2 className="text-xl font-semibold mb-6 text-gold">
-          HONEY HOMES&APARTMENT
+          HONEY HOMES&APARTMENTS
         </h2>
 
         <div className="space-y-3 text-gray-300">
