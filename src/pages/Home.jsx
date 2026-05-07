@@ -106,7 +106,7 @@ function Home() {
           viewport={{ once: true }}
         >
           <h2 className="text-2xl font-semibold mb-8 text-center text-gold-shine">
-            Why Choose HONEY HOMES AND APARTMENT?
+            Why Choose HONEY HOMES AND APARTMENTS?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
