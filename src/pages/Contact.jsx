@@ -37,7 +37,7 @@ Message: ${formData.message || ""}`;
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        Contact HONEY HOMES&APARTMENTS
+        Contact HONEY HOMES AND APARTMENTS
       </motion.h1>
 
       <div className="grid md:grid-cols-2 gap-10">
@@ -145,7 +145,7 @@ Message: ${formData.message || ""}`;
             </p>
 
             <p className="text-gray-200">
-              🏢 Honey Homes&Apartments
+              🏢 Honey Homes And Apartments
             </p>
           </motion.div>
 

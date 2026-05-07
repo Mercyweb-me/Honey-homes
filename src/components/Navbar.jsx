@@ -11,7 +11,7 @@ function Navbar() {
         
         <Link to="/" className="flex items-center gap-2 md:gap-4">
           <img src={logo} alt="HONEY HOMES&APARTMENT logo" className="h-12 md:h-16 w-auto object-contain drop-shadow-lg glow-gold" />
-          <span className="font-bold text-lg md:text-xl text-gold-shine">HONEY HOMES&APARTMENTS</span>
+          <span className="font-bold text-lg md:text-xl text-gold-shine">HONEY HOMES AND APARTMENTS</span>
         </Link>
 
         <button
